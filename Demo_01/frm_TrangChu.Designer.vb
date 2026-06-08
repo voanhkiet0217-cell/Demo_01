@@ -200,6 +200,8 @@ Partial Class frm_TrangChu
         Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.PictureBox15 = New System.Windows.Forms.PictureBox()
+        Me.guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.Guna2GradientButton2 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2CustomGradientPanel1.SuspendLayout()
         Me.pnl_tt.SuspendLayout()
         Me.pnl_mon.SuspendLayout()
@@ -1245,6 +1247,8 @@ Partial Class frm_TrangChu
         '
         Me.pnl_ban.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.pnl_ban.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.pnl_ban.Controls.Add(Me.Guna2GradientButton2)
+        Me.pnl_ban.Controls.Add(Me.guna2GradientButton1)
         Me.pnl_ban.Controls.Add(Me.pictureBox14)
         Me.pnl_ban.Controls.Add(Me.label3)
         Me.pnl_ban.Controls.Add(Me.Guna2TextBox9)
@@ -2143,6 +2147,44 @@ Partial Class frm_TrangChu
         Me.PictureBox15.TabIndex = 35
         Me.PictureBox15.TabStop = False
         '
+        'guna2GradientButton1
+        '
+        Me.guna2GradientButton1.Animated = True
+        Me.guna2GradientButton1.AutoRoundedCorners = True
+        Me.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.guna2GradientButton1.FillColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(223, Byte), Integer), CType(CType(181, Byte), Integer))
+        Me.guna2GradientButton1.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(156, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.guna2GradientButton1.Font = New System.Drawing.Font("Britannic Bold", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.guna2GradientButton1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(231, Byte), Integer))
+        Me.guna2GradientButton1.Location = New System.Drawing.Point(23, 621)
+        Me.guna2GradientButton1.Name = "guna2GradientButton1"
+        Me.guna2GradientButton1.Size = New System.Drawing.Size(134, 47)
+        Me.guna2GradientButton1.TabIndex = 44
+        Me.guna2GradientButton1.Text = "Mượn Thiết Bị"
+        '
+        'Guna2GradientButton2
+        '
+        Me.Guna2GradientButton2.Animated = True
+        Me.Guna2GradientButton2.AutoRoundedCorners = True
+        Me.Guna2GradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2GradientButton2.FillColor = System.Drawing.Color.FromArgb(CType(CType(253, Byte), Integer), CType(CType(223, Byte), Integer), CType(CType(181, Byte), Integer))
+        Me.Guna2GradientButton2.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(156, Byte), Integer), CType(CType(62, Byte), Integer), CType(CType(48, Byte), Integer))
+        Me.Guna2GradientButton2.Font = New System.Drawing.Font("Britannic Bold", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2GradientButton2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(231, Byte), Integer))
+        Me.Guna2GradientButton2.Location = New System.Drawing.Point(184, 621)
+        Me.Guna2GradientButton2.Name = "Guna2GradientButton2"
+        Me.Guna2GradientButton2.Size = New System.Drawing.Size(137, 47)
+        Me.Guna2GradientButton2.TabIndex = 45
+        Me.Guna2GradientButton2.Text = "Trả Thiết Bị"
+        '
         'frm_TrangChu
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
@@ -2390,4 +2432,6 @@ Partial Class frm_TrangChu
     Private WithEvents Button78 As Button
     Private WithEvents Button79 As Button
     Private WithEvents Button80 As Button
+    Private WithEvents Guna2GradientButton2 As Guna.UI2.WinForms.Guna2GradientButton
+    Private WithEvents guna2GradientButton1 As Guna.UI2.WinForms.Guna2GradientButton
 End Class
